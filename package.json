@@ -1,0 +1,67 @@
+{
+  "name": "xui",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name xui --dest lib packages/index.js",
+    "lint": "vue-cli-service lint"
+  },
+  "description": "An enterprise-class UI design language and Vue components implementation",
+  "keywords": [
+    "component",
+    "components",
+    "design",
+    "framework",
+    "frontend",
+    "vue",
+    "vue-component",
+    "ui",
+    "Button",
+    "徐小夕"
+  ],
+  "homepage": "https://github.com/MrXujiang/xui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrXujiang/xui/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:MrXujiang/xui.git"
+  },
+  "contributors": [
+    "alex_xu"
+  ],
+  "dependencies": {
+    "core-js": "^3.6.4",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.2.0",
+    "@vue/cli-plugin-eslint": "^4.2.0",
+    "@vue/cli-service": "^4.2.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.1.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
