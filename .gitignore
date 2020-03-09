@@ -20,6 +20,3 @@ yarn-error.log*
 *.sln
 *.sw?
 
-examples/
-packages/
-public/

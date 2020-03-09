@@ -1,7 +1,6 @@
 {
-  "name": "xui",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@alex_xu/vui",
+  "version": "0.1.1",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -63,5 +62,6 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ]
+  ],
+  "main": "lib/xui.umd.min.js"
 }
